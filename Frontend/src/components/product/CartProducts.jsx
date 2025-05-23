@@ -10,7 +10,7 @@ const CartProducts = ({ product }) => {
   return (
     <div className="flex items-center gap-4 mb-4 p-4 border-b border-gray-300 rounded-3xl shadow-xl">
       <img
-        src={`http://localhost:3000${image}`}
+        src={`https://automotive-o3rx.onrender.com${image}`}
         alt={name}
         className="w-20 h-20 md:w-50 md:h-50 object-cover rounded"
       />
