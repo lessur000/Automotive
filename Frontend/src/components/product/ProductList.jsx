@@ -24,7 +24,7 @@ const ProductList = ({ products, searchQuery, setSearchQuery }) => {
               <div key={product.id} className="bg-gray-800 p-4 rounded-lg">
                 <div className="bg-[#F0EEED] rounded-xl overflow-hidden">
                   <img
-                    src={`http://localhost:3000${product.image}`}
+                    src={`https://automotive-o3rx.onrender.com${product.image}`}
                     alt={product.name}
                     className="w-full h-48 object-cover"
                     loading="lazy"
