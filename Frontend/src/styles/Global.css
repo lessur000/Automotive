@@ -1,0 +1,44 @@
+body {
+  background-color: #000000;
+}
+
+.nav-link {
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #3b82f6;
+  transition: width 0.5s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.gradient {
+  position: absolute;
+  width: 100%;
+  height: 130%;
+  left: -35%;
+  top: -25%;
+  background: rgba(2, 1, 1, 0.842);
+  transform: rotate(-60.2deg);
+  z-index: 1;
+}
+
+.gradient2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 55%;
+  background: rgba(2, 1, 1, 0.842);
+  filter: blur(60px);
+  z-index: 0;
+}
